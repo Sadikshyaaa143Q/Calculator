@@ -54,3 +54,8 @@ form input.equal{
 form input.operator{
     color: #33ffd8;
 }
+
+input[type="button"]:hover {
+    transform: scale(1.25);
+    transition: transform 0.1s;
+}

@@ -13,8 +13,8 @@
                         <input type="text" name="display" readonly>
                     </div>
                     <div>
-                        <input type="button" value="AC" onclick="display.value = ''" class="operator" onmouseover="this.style.backgroundColor='green' " onmouseout="this.style.backgroundColor=''">
-                        <input type="button" value="⌫" onclick="display.value = display.value.toString().slice(0, -1)" class="operator" onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor=''">
+                        <input type="button" value="AC" title="Clear" onclick="display.value = ''" class="operator" onmouseover="this.style.backgroundColor='green' " onmouseout="this.style.backgroundColor=''">
+                        <input type="button" value="⌫" title="Delete" onclick="display.value = display.value.toString().slice(0, -1)" class="operator" onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor=''">
                         <input type="button" value="." onclick="display.value += '.'" class="operator" onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor=''">
                         <input type="button" value="/" onclick="display.value += '/'" class="operator" onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor=''">
                     </div>
